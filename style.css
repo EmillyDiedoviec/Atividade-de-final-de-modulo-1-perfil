@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow:hidden;
+}
+
+.nave {
+    background-color: rgb(44, 44, 44);
+    width: 350px;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.perfil {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+    margin: 100px 0px 20px 0px;
+    background-color: rgb(7, 51, 92);
+    border-radius: 100%;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main {
+    background-color:rgb(111, 138, 197);
+    width: calc(100vw - 350px);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 350px;
+}
+
+.textos {
+    padding: 70px 0px 0px 80px;
+}
+
+.titulo {
+    font-size: 100px;
+    font-weight: 800;
+    color: rgb(5, 12, 32);
+    text-shadow: #333 -5px 2px 5px;
+}
+
+.subtexto {
+    font-size: 20px;
+}
+
+span a {
+    color:rgb(44, 44, 44);
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.descrição {
+    padding: 40px 0px 0px 80px;
+    font-size: 20px;
+    width: 700px;
+    text-align: justify;
+}
+
+.redes a img{
+    width: 70px;
+    margin: 10px 5px 0px 5px;
+    position: relative;
+    left: 70px;
+}
+
+.redes a :hover {
+    transform: scale(1.2);
+}
+
+.gif img{
+    width: 120px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* ------------------Conhecimentos------------------ */
+
+.conhecimentos h1{
+    font-size: 50px;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-family: monospace;
+}
+
+ol li {
+    font-size: 30px;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    text-align: start;
+    font-family: monospace;
+}
+
+ol li img {
+    width: 70px;
+}
+
+/* ------------------Objetivos------------------ */
+
+
+.objetivos h1 {
+    font-size: 40px;
+    position: relative;
+    top: 80px;
+    left: 70px;
+    font-family: monospace;
+    padding-top: 50px;
+}
+
+.obj {
+    font-size: 19px;
+    position: relative;
+    top: 80px;
+    left: 70px;
+    font-family: monospace;
+    padding: 10px 400px 0px 0px;
+}
